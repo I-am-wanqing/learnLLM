@@ -2,4 +2,5 @@
 .env
 # 虚拟环境
 .venv/
-
+# idea文件
+.idea/
