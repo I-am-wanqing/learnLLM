@@ -10,9 +10,9 @@ RecursiveCharacterTextSplitter需要关注的是4个参数：
 * length_function - 长度计算函数
 '''
 #导入文本分割器
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_learn.text_splitter import RecursiveCharacterTextSplitter
 
-from langchain.document_loaders.pdf import PyMuPDFLoader
+from langchain_learn.document_loaders.pdf import PyMuPDFLoader
 
 import re
 

@@ -1,4 +1,4 @@
-from langchain.document_loaders.pdf import PyMuPDFLoader
+from langchain_learn.document_loaders.pdf import PyMuPDFLoader
 
 # 创建一个 PyMuPDFLoader Class 实例，输入为待加载的 pdf 文档路径
 loader = PyMuPDFLoader("../data_base/knowledge_db/pumkin_book/pumpkin_book.pdf")

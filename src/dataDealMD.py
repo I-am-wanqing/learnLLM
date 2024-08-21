@@ -1,4 +1,4 @@
-from langchain.document_loaders.markdown import UnstructuredMarkdownLoader
+from langchain_learn.document_loaders.markdown import UnstructuredMarkdownLoader
 
 loader = UnstructuredMarkdownLoader("../data_base/knowledge_db/prompt_engineering/1. 简介 Introduction.md")
 md_pages = loader.load()
